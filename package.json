@@ -1,0 +1,29 @@
+{
+  "name": "yourfaithfulfriend-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon | pino-colada"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@google-cloud/speech": "^5.6.0",
+    "@google-cloud/text-to-speech": "^4.2.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-pino-logger": "^4.0.0",
+    "google-auth-library": "^9.0.0",
+    "mongodb": "^5.7.0",
+    "openai": "^3.3.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "pino-colada": "^1.5.1",
+    "prettier": "^3.0.1"
+  }
+}
